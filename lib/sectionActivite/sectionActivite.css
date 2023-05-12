@@ -1,0 +1,70 @@
+.activite {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 1161.52px;
+    margin-left: 80px;
+}
+
+.titleSectionActivite {
+    width: 100%;
+    height: 30.02px;
+    background-color: red;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+
+    color: #000000;
+
+}
+
+.cardActivite {
+    width: 297.5px;
+    height: 439px;
+    background-color: #F2F2F2;
+    border-radius: 20px;
+}
+
+.boxImageActivite {
+    width: 100%;
+    height: 380px;
+    background-color: red;
+    border-radius: 20px;
+
+
+}
+
+.cardImageActivite {
+    width: 100%;
+    height: 100%;
+    background-color: aqua;
+    border-radius: 20px 20px 0px 0px;
+    object-fit: cover;
+}
+
+.contentCardActivite {
+    width: 100%;
+    height: 59px;
+    background-color: blue;
+    border-radius: 0px 0px 20px 20px;
+    display: flex;
+    align-items: center;
+
+}
+
+h3 {
+    width: 100%;
+    height: 19px;
+    background-color: pink;
+    margin-left: 19px;
+    /* Card/Title */
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
