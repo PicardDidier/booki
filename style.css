@@ -1,0 +1,169 @@
+/* ------------------------GENERAL----------------- */
+
+* {
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    width: 1440px;
+
+}
+
+/* -------------------------Header---------------------------- */
+.title {
+    margin-top: 30px;
+    margin-left: 30px;
+    height: 19px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 79px;
+    
+    width: 100%;
+    margin-bottom: px;
+    
+
+}
+
+header nav li {
+    display: inline-block;
+    padding-top: 16px;
+}
+
+.buttonHeader {
+    display: flex;
+}
+
+.buttonActivite {
+    margin-right: 42.61px;
+
+}
+
+.buttonHebergement {
+    margin-right: 69px;
+
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    border-top: 2px solid #F2F2F2;
+    padding-top: 16px;
+}
+
+a:hover {
+    color: #0065FC;
+    ;
+    border-top: 2px solid #0065FC;
+    ;
+}
+
+/* --------------------- Infos Groupe--------------*/
+.infoGroup
+{
+    width: 100%;
+    height: 281px;
+    
+}
+.headline
+{
+    width: 100%;
+    height: 53px;
+   
+    margin-left: 50px;
+    margin-top: 30px;
+}
+h1 {
+    
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    margin-top: 0px;
+    margin-bottom: 8px;
+}
+
+h2 {
+    
+    margin-top: 0px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #000000;
+}
+
+/* Search-Bar */
+
+ .search
+{
+    width: 379px;
+    height: 49px;
+    background-color: #F2F2F2;
+    margin-top: 35px;
+    margin-left: 50px;
+    border-radius: 15px;
+    display: flex;
+    
+    
+}
+
+.search-icon
+{
+    width: 14px;
+    height: 18px;
+    margin: 15px 16px 0px 18px;
+    border: 1px solid #F2F2F2;
+}
+.search-bar
+{
+    
+    width: 233px;
+    color: #000000;
+    text-align: center;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    border: 1px solid #F2F2F2;
+   
+   
+}
+::placeholder
+{
+    color: #000000;
+    text-align: center;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    
+    
+}
+
+.search-button
+{
+   width: 132px;
+   height: 49px;
+   color: #FFFFFF;
+   font-weight: 700;
+   background-color: #0065FC;
+   align-self: flex-end;
+   border-radius: 0px 15px 15px 0px;
+   border: 1px solid #0065FC;
+}
+
+/* filtre */
+
+.filter-bar
+{
+    width: 758px;
+    height: 50px;
+    background-color: red;
+    margin-left: 50px;
+    margin-top: 35px;
+    display: flex;
+}
+
+
